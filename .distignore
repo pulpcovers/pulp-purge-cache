@@ -1,0 +1,43 @@
+# Exclude itself
+.distignore
+
+# GitHub & Git
+.github/
+.git/
+.gitignore
+.gitattributes
+
+# Documentation not needed in SVN
+README.md
+LICENSE
+CONTRIBUTING.md
+
+# Node / build artifacts (future-proofing)
+node_modules/
+npm-debug.log
+yarn.lock
+package.json
+package-lock.json
+
+# Composer (future-proofing)
+vendor/
+composer.json
+composer.lock
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Archives
+*.zip
+*.tar.gz
+
+# Tests (if added later)
+tests/
+phpunit.xml
+phpunit.xml.dist
+
+# CI / workflow files
+*.yml
+*.yaml
