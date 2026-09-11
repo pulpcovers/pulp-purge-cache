@@ -2,7 +2,7 @@
 
 A modernized, dependency-free WordPress plugin that purges Cloudflare cache on post publish, without over-purging on every minor edit.
 
-This is a rewrite of the abandoned [Purge Cache](https://wordpress.org/plugins/c-purge-cache/) ([source](https://github.com/gdidentity/c-purge-cache)) plugin for use on [pulpcovers.com](https://pulpcovers.com).
+This is a rewrite of the abandoned [Purge Cache](https://wordpress.org/plugins/c-purge-cache/) ([source](https://github.com/gdidentity/c-purge-cache)) plugin.
 
 ## Why
 
