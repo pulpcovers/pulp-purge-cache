@@ -1,16 +1,17 @@
 <?php
 /**
- * Plugin Name:       Pulp Purge Cache
- * Plugin URI:        https://github.com/pulpcovers/pulp-purge-cache
- * Description:       Purges Cloudflare cache when a post is first published (everything) or edited afterwards (just that post's URL). A modernized, dependency-free replacement for the abandoned "Purge Cache" (c-purge-cache) plugin.
- * Version:           1.0.0
- * Requires at least: 6.0
- * Requires PHP:      7.4
- * Author:            Pulp Covers
- * License:           GPL-3.0-or-later
- * License URI:       https://www.gnu.org/licenses/gpl-3.0.html
- * Text Domain:       pulp-purge-cache
- */
+* Plugin Name:       Pulp Purge Cache
+* Plugin URI:        https://github.com/pulpcovers/pulp-purge-cache
+* Description:       Purges Cloudflare cache when a post is first published (everything) or edited afterwards (just that post's URL). A modernized, dependency-free replacement for the abandoned "Purge Cache" (c-purge-cache) plugin.
+* Version:           1.0.0
+* Requires at least: 6.0
+* Requires PHP:      7.4
+* Author: PulpCovers
+* Author URI: https://pulpcovers.com
+* License:           GPL-3.0-or-later
+* License URI:       https://www.gnu.org/licenses/gpl-3.0.html
+* Text Domain:       pulp-purge-cache
+*/
 
 defined( 'ABSPATH' ) || exit;
 
